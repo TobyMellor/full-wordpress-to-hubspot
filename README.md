@@ -7,7 +7,7 @@ The default Hubspot Importer from Wordpress doesn't support featured images. Thi
 Make sure https://www.docker.com/ is installed.
 
 1. Run the commands:
-     `git clone https://username@bitbucket.org/teamsinspace/documentation-tests.git`
+     `git clone git@bitbucket.org:TobyMellor/full-wordpress-to-hubspot.git`
 	 `docker build -t importer .`
 2. Go to your WordPress site and Login. Go to "Tools" > "Export". Click on "Posts" then "Download Export File"
 3. Take the contents from this XML file and paste it into "import_file.xml". Find and replace "wp:", "dc:" and ":encoded" to ""
