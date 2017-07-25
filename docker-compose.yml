@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  importer:
+    build: .
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 80:80

@@ -1,0 +1,6 @@
+<?php
+
+$privateDetails = [
+	'hapikey' => '', // Found from Integrations
+	'blog_id' => 123456 // Found from GET https://api.hubapi.com/content/api/v2/blogs?hapikey=<HAPIKEY HERE>
+];
